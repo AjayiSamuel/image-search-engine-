@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Search engine</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="/static/css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+    <center>
+        <h3 class="header red-text"> Image Search Engine </h3>
+    </center>
+    <center>
+       <form id="upload-from" action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data">
+           <input type ="file" name="file" accept="image/*" style="margin:50px; background-color: green; text-color:white; color: white;" multiple>
+           <input type="submit" value="Search" style="margin:50px; color:white; background-color: green;">
+        </form>
+    </center>
+
+    <center>
+        <p><b>Uploaded image</b></p>
+        <img src = "{{ url_for('send_image', filename = image_name_) }}" width="224">
+        <p> Image classification result:  <b>{{label}}</b></p>
+        <p> Certainty:  <b>{{accuracy}}%</b> </p>
+        <br>
+        <b>Search Result</b><br>
+    </center>
+
+
+
+{# google_search_result #}
+        {% for i in range(9): %}
+    <div class="container">
+           {# google_search_result['items'][i] #}
+        <a href="{{ google_search_result['items'][i]['link'] }}">
+            <h6>
+                <b>{{ google_search_result['items'][i]['title'] }}</b>
+            </h6>
+        </a> <br>
+
+        <span >
+            <a class="green-text" href="{{ google_search_result['items'][i]['link'] }}">
+                <b>
+                    {{ google_search_result['items'][i]['displayLink'] }}
+                </b>
+            </a>
+        </span>
+
+        <span class="grey-text">
+            <p>{{ google_search_result['items'][i]['snippet'] }}</p>
+        </span><!-- Content snippet small. color green -->
+           <br><br>
+    </div>
+
+{% endfor %}
+
+<!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="/static/js/materialize.min.js"></script>
+
+</body>
+</html>

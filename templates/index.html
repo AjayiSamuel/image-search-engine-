@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Search engine</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="/static/css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<h4>
+    <center>Image Search Engine</center>
+</h4>
+<div >
+  <!--<form id = "upload-foorm" action="{{ url_for('main') }}" method="POST" enctype="multipart/form-data">-->
+    <!--<div class="file-field input-field">-->
+      <!--<div class="btn">-->
+        <!--<span>File</span>-->
+        <!--<input type="file">-->
+      <!--</div>-->
+      <!--<div class="file-path-wrapper">-->
+          <!--<input class="file-path validate" type="file" name="file" accept="image/*" multiple>-->
+          <!--<input type="submit" value="Search">-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</form>-->
+
+    <form id="upload-from" action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data">
+        <input type ="file" accept="image/*"> <!--no multiple upload-->
+        <input type="submit" value="Search">
+    </form>
+</div>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="/static/js/materialize.min.js"></script>
+</body>
+</html>
