@@ -67,8 +67,8 @@ def upload():
     print(percentage)
 
     from googleapiclient.discovery import build
-    my_api_key = "AIzaSyACl5n-r256y44cZjFnPcbrrN4zMGMNpBM"
-    my_cse_id = "007730378425504031301:bytbtow3f9u"
+    my_api_key = "" #input your API key
+    my_cse_id = "" #input your CSE key
 
     def google_search(search_term, api_key, cse_id, **kwargs):
         service = build("customsearch", "v1", developerKey=api_key)
