@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        {% include "template/_header.html"%}
+    </header>
+
+    <body>
+        {% include "template/_topic.html" %}
+        {% include "template/_form.html" %}
+
+        {% block content %}
+        {% endblock %}
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="/static/js/materialize.min.js"></script>
+    </body>
+</html>

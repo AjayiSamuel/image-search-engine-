@@ -1,4 +1,5 @@
 import os
+import logging
 import urllib
 import json
 from flask import Flask, render_template, request, send_from_directory, jsonify
@@ -11,18 +12,25 @@ from tensorflow.python.keras.preprocessing.image import load_img, img_to_array
 
 
 image_size = 224
-image_dir = '/home/mlg/Documents/Projects/image search engine/images'
+image_dir = 'images'
+
+# logging.info("model successfully loaded into memory")
+# print("model successfully loaded into memory print")
 
 app = Flask(__name__)
-
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
+
+# @app.before_first_request
+# def load_model():
+#     model = ResNet50(weights='/models/resnet50_weights_tf_dim_ordering_tf_kernels.h5')
+
 
 @app.route("/")
 def main():
-    return render_template('upload.html')
+    return render_template('index.html')
 
-@app.route("/upload", methods=['POST'])
-def upload():
+@app.route("/search", methods=['POST'])
+def search():
     target = os.path.join(APP_ROOT, 'images/')
     print(target)
     if not os.path.isdir(target):
@@ -52,7 +60,8 @@ def upload():
 
     test_data = read_and_prep_images(img_paths)  # for double
     print("test_data-- working", test_data.shape)
-    my_model = ResNet50(weights='/home/mlg/Documents/Projects/image search engine/models/resnet50_weights_tf_dim_ordering_tf_kernels.h5')
+    # model loading
+    my_model = ResNet50(weights='models/resnet50_weights_tf_dim_ordering_tf_kernels.h5')
     preds = my_model.predict(test_data)
     tensorflow.keras.backend.clear_session()
     print("preds working -- working")
@@ -67,8 +76,8 @@ def upload():
     print(percentage)
 
     from googleapiclient.discovery import build
-    my_api_key = "" #input your API key
-    my_cse_id = "" #input your CSE key
+    my_api_key = "AIzaSyACl5n-r256y44cZjFnPcbrrN4zMGMNpBM" #input your API key
+    my_cse_id = "007730378425504031301:bytbtow3f9u" #input your CSE key
 
     def google_search(search_term, api_key, cse_id, **kwargs):
         service = build("customsearch", "v1", developerKey=api_key)
@@ -77,11 +86,6 @@ def upload():
 
     google_result = google_search(result, my_api_key, my_cse_id)
     print("Our raw data is of type:", type(google_result))
-    # print(google_result)
-    # json_google_result = json.dumps(google_result)
-    # print(json_google_result)
-    # print("Our new data is of type:", type(json_google_result))
-
 
     return render_template('search.html', image_name_=image_name, label=result, accuracy=percentage, result_string_= result_string, google_search_result = google_result)
 
@@ -97,4 +101,4 @@ def send_image(filename):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port = 8000)
+    app.run(debug=True, port=8000)
