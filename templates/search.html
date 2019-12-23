@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Image Search engine</title>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="/static/css/materialize.min.css"  media="screen,projection"/>
+{% extends "base.html" %}
 
-      <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-</head>
-<body>
-    <center>
-        <h3 class="header red-text"> Image Search Engine </h3>
-    </center>
-    <center>
-       <form id="upload-from" action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data">
-           <input type ="file" name="file" accept="image/*" style="margin:50px; background-color: green; text-color:white; color: white;" multiple>
-           <input type="submit" value="Search" style="margin:50px; color:white; background-color: green;">
-        </form>
-    </center>
-
+{% block content %}
     <center>
         <p><b>Uploaded image</b></p>
         <img src = "{{ url_for('send_image', filename = image_name_) }}" width="224">
@@ -31,9 +10,7 @@
         <b>Search Result</b><br>
     </center>
 
-
-
-{# google_search_result #}
+    {# google_search_result #}
         {% for i in range(9): %}
     <div class="container">
            {# google_search_result['items'][i] #}
@@ -57,10 +34,6 @@
            <br><br>
     </div>
 
-{% endfor %}
+    {% endfor %}
 
-<!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="/static/js/materialize.min.js"></script>
-
-</body>
-</html>
+{% endblock %}

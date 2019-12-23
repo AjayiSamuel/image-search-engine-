@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cb8e3a3-1be9-4fcb-b558-e01bd784e6c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google search json response format" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Ddp4Y7IUwAA1d4i.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/IMG_20181126_090938_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/IMG_5162 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/IMG_5162.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/access_card.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bitmoji-20190805113724.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lab1-progress report.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lab123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pcidsscompleted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/load_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/image search engine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/image search engine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/funcs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/search.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>}</find>
+      <find>image_size</find>
+      <find>send_image</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1V3mcRDSkp6f4zi4LLRidXEnhmF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Others/chest xray project" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python">
+      <module name="image search engine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="image search engine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="image search engine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.index" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cb8e3a3-1be9-4fcb-b558-e01bd784e6c5" name="Default Changelist" comment="" />
+      <created>1546970805096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546970805096</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Key modification">
+      <created>1548406420170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548406420170</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Key modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Key modification" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="170" key="#app" timestamp="1576490284440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="555" y="170" key="#app/0.0.1920.1040@0.0.1920.1040" timestamp="1576490284440" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1577080966806">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577080966806" />
+    <state width="936" height="227" key="GridCell.Tab.0.bottom" timestamp="1577083222681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577083222681" />
+    <state width="936" height="227" key="GridCell.Tab.0.center" timestamp="1577083222680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="227" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577083222680" />
+    <state width="936" height="227" key="GridCell.Tab.0.left" timestamp="1577083222680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="227" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577083222680" />
+    <state width="936" height="227" key="GridCell.Tab.0.right" timestamp="1577083222681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="227" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577083222681" />
+    <state x="337" y="198" key="SettingsEditor" timestamp="1577081129196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="337" y="198" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577081129196" />
+    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576784804972">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576784804972" />
+  </component>
+</project>
