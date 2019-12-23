@@ -1,0 +1,325 @@
+Formatted JSON Data
+{  
+   "kind":"customsearch#search",
+   "url":{  
+      "type":"application/json",
+      "template":"https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+   },
+   "queries":{  
+      "request":[  
+         {  
+            "title":"Google Custom Search - nematode",
+            "totalResults":"5310000",
+            "searchTerms":"nematode",
+            "count":10,
+            "startIndex":1,
+            "inputEncoding":"utf8",
+            "outputEncoding":"utf8",
+            "safe":"off",
+            "cx":"007730378425504031301:bytbtow3f9u"
+         }
+      ],
+      "nextPage":[  
+         {  
+            "title":"Google Custom Search - nematode",
+            "totalResults":"5310000",
+            "searchTerms":"nematode",
+            "count":10,
+            "startIndex":11,
+            "inputEncoding":"utf8",
+            "outputEncoding":"utf8",
+            "safe":"off",
+            "cx":"007730378425504031301:bytbtow3f9u"
+         }
+      ]
+   },
+   "context":{  
+      "title":"Google"
+   },
+   "searchInformation":{  
+      "searchTime":0.239051,
+      "formattedSearchTime":"0.24",
+      "totalResults":"5310000",
+      "formattedTotalResults":"5,310,000"
+   },
+   "items":[  
+      {  
+         "kind":"customsearch#result",
+         "title":"Nematode - Wikipedia",
+         "htmlTitle":"<b>Nematode</b> - Wikipedia",
+         "link":"https://en.wikipedia.org/wiki/Nematode",
+         "displayLink":"en.wikipedia.org",
+         "snippet":"The nematodes or roundworms constitute the phylum Nematoda (also called \nNemathelminthes). They are a diverse animal phylum inhabiting a broad range of\n\u00a0...",
+         "htmlSnippet":"The <b>nematodes</b> or roundworms constitute the phylum Nematoda (also called <br>\nNemathelminthes). They are a diverse animal phylum inhabiting a broad range of<br>\n&nbsp;...",
+         "cacheId":"3y3AL3fk0UoJ",
+         "formattedUrl":"https://en.wikipedia.org/wiki/Nematode",
+         "htmlFormattedUrl":"https://en.wikipedia.org/wiki/<b>Nematode</b>",
+         "pagemap":{  
+            "cse_thumbnail":[  
+               {  
+                  "width":"244",
+                  "height":"207",
+                  "src":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR5BjE526up6Ecxqwo1zOYxDRPoT2PT9CG067nfGIR0D9ZYrfgneDAnttc"
+               }
+            ],
+            "metatags":[  
+               {  
+                  "referrer":"origin",
+                  "og:image":"https://upload.wikimedia.org/wikipedia/commons/6/6a/CelegansGoldsteinLabUNC.jpg"
+               }
+            ],
+            "cse_image":[  
+               {  
+                  "src":"https://upload.wikimedia.org/wikipedia/commons/6/6a/CelegansGoldsteinLabUNC.jpg"
+               }
+            ]
+         }
+      },
+      {  
+         "kind":"customsearch#result",
+         "title":"Nematodes - the good, the bad and the ugly.",
+         "htmlTitle":"<b>Nematodes</b> - the good, the bad and the ugly.",
+         "link":"https://www.apsnet.org/EDCENTER/K-12/NEWSVIEWS/Pages/Nematodes.aspx",
+         "displayLink":"www.apsnet.org",
+         "snippet":"A species of giant nematode (Placentonema gigantissimum) makes its home in \nthe placenta of the sperm whale. That would be enough to make your stomach\u00a0...",
+         "htmlSnippet":"A species of giant <b>nematode</b> (Placentonema gigantissimum) makes its home in <br>\nthe placenta of the sperm whale. That would be enough to make your stomach&nbsp;...",
+         "cacheId":"_MQBBRb2U5YJ",
+         "formattedUrl":"https://www.apsnet.org/EDCENTER/K-12/.../Nematodes.aspx",
+         "htmlFormattedUrl":"https://www.apsnet.org/EDCENTER/K-12/.../<b>Nematodes</b>.aspx",
+         "pagemap":{  
+            "cse_thumbnail":[  
+               {  
+                  "width":"311",
+                  "height":"162",
+                  "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5aS5TF2bFawKyKwtEbfSd93uMY53DnSCE7BLf4ykYQvdmz75DoOgyhAI"
+               }
+            ],
+            "metatags":[  
+               {  
+                  "viewport":"width=device-width, minimum-scale=1, maximum-scale=2",
+                  "apple-mobile-web-app-title":"American Phytopathological Society",
+                  "application-name":"American Phytopathological Society",
+                  "theme-color":"#036a44",
+                  "twitter:site":"@plantdisease",
+                  "twitter:creator":"@plantdisease",
+                  "twitter:title":"American Phytopathological Society",
+                  "twitter:image":"https://www.apsnet.org/style%20library/Images/apssmimg.jpg",
+                  "twitter:image:alt":"American Phytopathological Society",
+                  "og:url":"https://www.apsnet.org/pages/default.aspx",
+                  "og:title":"American Phytopathological Society",
+                  "og:type":"website",
+                  "og:site_name":"American Phytopathological Society",
+                  "og:image:type":"image/jpg",
+                  "og:image":"https://www.apsnet.org/style%20library/Images/apssmimg.jpg",
+                  "og:description":"The American Phytopathological Society (APS) is the premier scientific society dedicated to high-quality, innovative plant pathology research. For more than a century, members of APS have been making and sharing significant breakthroughs, both for the science and society. APS is driven by a distinctive community of scientists, whose energy and commitment ensure the global advancement of this critical science."
+               }
+            ],
+            "cse_image":[  
+               {  
+                  "src":"https://www.apsnet.org/style%20library/Images/apssmimg.jpg"
+               }
+            ]
+         }
+      },
+      {  
+         "kind":"customsearch#result",
+         "title":"Nematodes in General",
+         "htmlTitle":"<b>Nematodes</b> in General",
+         "link":"https://nematode.unl.edu/wormgen.htm",
+         "displayLink":"nematode.unl.edu",
+         "snippet":"Nematodes are the most numerous multicellular animals on earth. A handful of \nsoil will contain thousands of the microscopic worms, many of them parasites of\u00a0...",
+         "htmlSnippet":"<b>Nematodes</b> are the most numerous multicellular animals on earth. A handful of <br>\nsoil will contain thousands of the microscopic worms, many of them parasites of&nbsp;...",
+         "cacheId":"mfiyzoFR9kwJ",
+         "formattedUrl":"https://nematode.unl.edu/wormgen.htm",
+         "htmlFormattedUrl":"https://<b>nematode</b>.unl.edu/wormgen.htm",
+         "pagemap":{  
+            "cse_thumbnail":[  
+               {  
+                  "width":"123",
+                  "height":"175",
+                  "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJCA-LHxKE7yDHU1ycNjm1fe8YyI8ImYOoU7LwD-hwpAmL9br2L6hikQ"
+               }
+            ],
+            "cse_image":[  
+               {  
+                  "src":"https://nematode.unl.edu/specieslist.gif"
+               }
+            ]
+         }
+      },
+      {  
+         "kind":"customsearch#result",
+         "title":"Nematode.net v4.0",
+         "htmlTitle":"<b>Nematode</b>.net v4.0",
+         "link":"http://www.nematode.net/",
+         "displayLink":"www.nematode.net",
+         "snippet":"Nematode genomics. Nematode.Net v4.0 provides easy access to information \nand other tools for analyzing nematode sequences.",
+         "htmlSnippet":"<b>Nematode</b> genomics. <b>Nematode</b>.Net v4.0 provides easy access to information <br>\nand other tools for analyzing <b>nematode</b> sequences.",
+         "cacheId":"4R2TnmXY0CQJ",
+         "formattedUrl":"www.nematode.net/",
+         "htmlFormattedUrl":"www.<b>nematode</b>.net/",
+         "pagemap":{  
+            "cse_thumbnail":[  
+               {  
+                  "width":"262",
+                  "height":"192",
+                  "src":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9Dfw0vMWAFFrKaRaFxt91th32S5Hp7GLLJeJ5avtJ_NF5Lm86dSQtaUrB"
+               }
+            ],
+            "cse_image":[  
+               {  
+                  "src":"http://www.nematode.net/Images/animation.gif"
+               }
+            ]
+         }
+      },
+      {  
+         "kind":"customsearch#result",
+         "title":"Nematode Management Guidelines--UC IPM",
+         "htmlTitle":"<b>Nematode</b> Management Guidelines--UC IPM",
+         "link":"http://ipm.ucanr.edu/PMG/PESTNOTES/pn7489.html",
+         "displayLink":"ipm.ucanr.edu",
+         "snippet":"Figure 1. An adult female citrus nematodes, Tylenchulus semipenetrans, shown \nimbedded in a root cut in cross section. The nematode's front end is deep inside\u00a0...",
+         "htmlSnippet":"Figure 1. An adult female citrus <b>nematodes</b>, Tylenchulus semipenetrans, shown <br>\nimbedded in a root cut in cross section. The <b>nematode&#39;s</b> front end is deep inside&nbsp;...",
+         "cacheId":"oGeXWhCk4o4J",
+         "formattedUrl":"ipm.ucanr.edu/PMG/PESTNOTES/pn7489.html",
+         "htmlFormattedUrl":"ipm.ucanr.edu/PMG/PESTNOTES/pn7489.html"
+      },
+      {  
+         "kind":"customsearch#result",
+         "title":"nematode - Wiktionary",
+         "htmlTitle":"<b>nematode</b> - Wiktionary",
+         "link":"https://en.wiktionary.org/wiki/nematode",
+         "displayLink":"en.wiktionary.org",
+         "snippet":"Etymology[edit]. Modern Latin compound of nemat- \"thread\" (from Greek nema, \ngenitive nematos \"thread,\" from stem of nein \"to spin;\") + -odes \"like, of the nature\n\u00a0...",
+         "htmlSnippet":"Etymology[edit]. Modern Latin compound of nemat- &quot;thread&quot; (from Greek nema, <br>\ngenitive nematos &quot;thread,&quot; from stem of nein &quot;to spin;&quot;) + -odes &quot;like, of the nature<br>\n&nbsp;...",
+         "cacheId":"XVNCuBTt2TsJ",
+         "formattedUrl":"https://en.wiktionary.org/wiki/nematode",
+         "htmlFormattedUrl":"https://en.wiktionary.org/wiki/<b>nematode</b>",
+         "pagemap":{  
+            "cse_thumbnail":[  
+               {  
+                  "width":"236",
+                  "height":"152",
+                  "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23F6KC-alPOqCM0Wp1A2oIfolbgoyjCemwNY0wFigTlk__kU26Y8ubpZZ"
+               }
+            ],
+            "metatags":[  
+               {  
+                  "referrer":"origin",
+                  "og:image":"https://upload.wikimedia.org/wikipedia/commons/f/fb/Roundworm.jpg"
+               }
+            ],
+            "cse_image":[  
+               {  
+                  "src":"https://upload.wikimedia.org/wikipedia/commons/f/fb/Roundworm.jpg"
+               }
+            ]
+         }
+      },
+      {  
+         "kind":"customsearch#result",
+         "title":"Nematode Assay Lab | Public | Clemson University, South Carolina",
+         "htmlTitle":"<b>Nematode</b> Assay Lab | Public | Clemson University, South Carolina",
+         "link":"https://www.clemson.edu/public/regulatory/plant-problem/nematode-assay-lab/index.html",
+         "displayLink":"www.clemson.edu",
+         "snippet":"Plant parasitic nematodes are microscopic worms that feed on virtually all plant \nlife. They can cause substantial damage to plants by feeding on the roots, thus\u00a0...",
+         "htmlSnippet":"Plant parasitic <b>nematodes</b> are microscopic worms that feed on virtually all plant <br>\nlife. They can cause substantial damage to plants by feeding on the roots, thus&nbsp;...",
+         "cacheId":"rwQxlnbNkMIJ",
+         "formattedUrl":"https://www.clemson.edu/public/regulatory/.../nematode.../index.html",
+         "htmlFormattedUrl":"https://www.clemson.edu/public/regulatory/.../<b>nematode</b>.../index.html",
+         "pagemap":{  
+            "cse_thumbnail":[  
+               {  
+                  "width":"366",
+                  "height":"138",
+                  "src":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEoXhwRsmvyJu9PYXFncZyY2QKlFzhh8yzdtPEUfB38rwHqfmq6eBRPA3G"
+               }
+            ],
+            "metatags":[  
+               {  
+                  "viewport":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
+                  "date":"Wed, 02 Jan 2019 11:34:36 -0500"
+               }
+            ],
+            "cse_image":[  
+               {  
+                  "src":"https://www.clemson.edu/public/regulatory/plant-problem/images/nematode-lab-banner-image.jpg"
+               }
+            ]
+         }
+      },
+      {  
+         "kind":"customsearch#result",
+         "title":"UC IPM: UC Management Guidelines for Nematodes on Grape",
+         "htmlTitle":"UC IPM: UC Management Guidelines for <b>Nematodes</b> on Grape",
+         "link":"http://ipm.ucanr.edu/PMG/r302200111.html",
+         "displayLink":"ipm.ucanr.edu",
+         "snippet":"Plant-parasitic nematodes are microscopic, unsegmented roundworms that feed \non plant roots by puncturing cell walls and withdrawing cell contents by means\u00a0...",
+         "htmlSnippet":"Plant-parasitic <b>nematodes</b> are microscopic, unsegmented roundworms that feed <br>\non plant roots by puncturing cell walls and withdrawing cell contents by means&nbsp;...",
+         "cacheId":"F6oZ4-AKR_sJ",
+         "formattedUrl":"ipm.ucanr.edu/PMG/r302200111.html",
+         "htmlFormattedUrl":"ipm.ucanr.edu/PMG/r302200111.html"
+      },
+      {  
+         "kind":"customsearch#result",
+         "title":"Beneficial Nematodes for Soil Dwelling Home & Garden Pests",
+         "htmlTitle":"Beneficial <b>Nematodes</b> for Soil Dwelling Home &amp; Garden Pests",
+         "link":"https://www.arbico-organics.com/category/beneficial-nematodes",
+         "displayLink":"www.arbico-organics.com",
+         "snippet":"Broad Spectrum Pest Control Starting At $36! Use Beneficial Nematodes to \nControl Grubs, Fungus Gnats, Fleas and Over 200 Other Soil Developing Pests!",
+         "htmlSnippet":"Broad Spectrum Pest Control Starting At $36! Use Beneficial <b>Nematodes</b> to <br>\nControl Grubs, Fungus Gnats, Fleas and Over 200 Other Soil Developing Pests!",
+         "cacheId":"YGGo8f5FHCUJ",
+         "formattedUrl":"https://www.arbico-organics.com/category/beneficial-nematodes",
+         "htmlFormattedUrl":"https://www.arbico-organics.com/category/beneficial-<b>nematodes</b>",
+         "pagemap":{  
+            "cse_thumbnail":[  
+               {  
+                  "width":"196",
+                  "height":"136",
+                  "src":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTb8MefFFq7O1A2nnBD-MJkl9expjkGmBG6hDvBcx5puqPG3KKMN98oGV4"
+               }
+            ],
+            "metatags":[  
+               {  
+                  "viewport":"width=device-width, initial-scale=1.0"
+               }
+            ],
+            "cse_image":[  
+               {  
+                  "src":"https://www.arbico-organics.com/images/beneficial-nematodes-attacking-grub.jpg"
+               }
+            ]
+         }
+      },
+      {  
+         "kind":"customsearch#result",
+         "title":"Copy number variation of multiple genes at Rhg1 mediates ...",
+         "htmlTitle":"Copy number variation of multiple genes at Rhg1 mediates ...",
+         "link":"https://www.ncbi.nlm.nih.gov/pubmed/23065905",
+         "displayLink":"www.ncbi.nlm.nih.gov",
+         "snippet":"Oct 11, 2018 ... Copy number variation of multiple genes at Rhg1 mediates nematode resistance \nin soybean. Cook DE(1), Lee TG, Guo X, Melito S, Wang K,\u00a0...",
+         "htmlSnippet":"Oct 11, 2018 <b>...</b> Copy number variation of multiple genes at Rhg1 mediates <b>nematode</b> resistance <br>\nin soybean. Cook DE(1), Lee TG, Guo X, Melito S, Wang K,&nbsp;...",
+         "formattedUrl":"https://www.ncbi.nlm.nih.gov/pubmed/23065905",
+         "htmlFormattedUrl":"https://www.ncbi.nlm.nih.gov/pubmed/23065905",
+         "pagemap":{  
+            "metatags":[  
+               {  
+                  "citation_title":"Copy number variation of multiple genes at Rhg1 mediates nematode resistance in soybean.",
+                  "citation_authors":"Cook DE; Lee TG; Guo X; Melito S; Wang K; Bayless AM; Wang J; Hughes TJ; Willis DK; Clemente TE; Diers BW; Jiang J; Hudson ME; Bent AF",
+                  "citation_date":"11/30/2012",
+                  "citation_publisher":"Science",
+                  "citation_journal_title":"Science (New York, N.Y.)",
+                  "citation_pmid":"23065905",
+                  "citation_abstract_html_url":"https://www.ncbi.nlm.nih.gov/pubmed/23065905",
+                  "citation_volume":"338",
+                  "citation_issue":"6111",
+                  "citation_firstpage":"1206",
+                  "citation_doi":"10.1126/science.1228746",
+                  "citation_issn":"1095-9203"
+               }
+            ]
+         }
+      }
+   ]
+}
